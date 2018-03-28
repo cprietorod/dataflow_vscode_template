@@ -40,3 +40,17 @@ to run in local machine I create a custom task called run DirectRunner. To run g
 ## Debug
 
 ## Install as Template
+
+## git aditional
+
+to untrack changes in task files 
+
+```bash
+git update-index --assume-unchanged .vscode/tasks.json
+```
+
+to retrack changes in task files 
+
+```bash
+git update-index --no-assume-unchanged .vscode/tasks.json
+```
